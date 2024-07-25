@@ -1,0 +1,127 @@
+/* General styles */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, footer {
+    background-image: url('assets/2.jpeg');
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+.nav-link:hover {
+    color: #ff4c4c !important;
+}
+
+.header-content {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#yo h1, #yo h2 {
+    color: #ff4c4c;
+}
+
+#yo .lead {
+    color: #ffffff;
+}
+
+.btn-outline-danger {
+    border-color: #ff4c4c;
+    color: #ff4c4c;
+}
+
+.btn-outline-danger:hover {
+    background-color: #ff4c4c;
+    color: #ffffff;
+}
+
+#app .Typewriter__wrapper {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ff4c4c;
+}
+
+/* Habilidades Section */
+#habilidades .subtitulo-habilidades {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff4c4c;
+}
+
+#habilidades .feature-icon {
+    font-size: 3rem;
+    color: #ff4c4c;
+    margin-bottom: 1rem;
+}
+
+.icono {
+    font-size: 2rem;
+    color: #ff4c4c;
+}
+
+/* Proyectos Section */
+#proyectos .card {
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+#proyectos .card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+#proyectos .card .text-body-secondary {
+    color: #ff4c4c;
+}
+
+/* Testimonios Section */
+#testimonios h1 {
+    color: #ff4c4c;
+}
+
+#testimonios .carousel-item img {
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Footer Section */
+#contacto {
+    color: #ffffff;
+    text-align: center;
+}
+
+#contacto .bi {
+    font-size: 2rem;
+    color: #ff4c4c;
+}
+
+#contacto .bi:hover {
+    color: #ffffff;
+}
+
+#derechos-de-autor {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #555555;
+}
+
+.icono-contacto {
+    font-size: 2rem;
+    color: #ff4c4c;
+    margin: 0 10px;
+}
+
+.icono-contacto:hover {
+    color: #ffffff;
+}
