@@ -23,6 +23,6 @@ document.addEventListener('DOMContentLoaded', function () {
 //movimiento carousel
     var myCarousel = document.querySelector('#carouselExample');
     var carousel = new bootstrap.Carousel(myCarousel, {
-        interval: 500, 
+        interval: 1500, 
         ride: 'carousel'
     });
