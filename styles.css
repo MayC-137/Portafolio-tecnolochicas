@@ -1,14 +1,16 @@
 /* General styles */
 body {
-    background-color: #121212;
-    color: #ffffff;
+    background-color: #eeeeee;
+    color: #000000;
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
 }
 
-header, nav, footer {
-    background-image: url('assets/2.jpeg');
+header, footer {
+    background-image: url('assets/2.jpg');
+    background-position: center; 
+    background-size: cover; 
 }
 
 .navbar-brand {
@@ -20,7 +22,7 @@ header, nav, footer {
 }
 
 .nav-link:hover {
-    color: #ff4c4c !important;
+    color: #cc1def !important;
 }
 
 .header-content {
@@ -29,51 +31,55 @@ header, nav, footer {
 }
 
 #yo h1, #yo h2 {
-    color: #ff4c4c;
+    color: #b425f6;
 }
 
 #yo .lead {
-    color: #ffffff;
+    color: #000000;
 }
 
 .btn-outline-danger {
-    border-color: #ff4c4c;
-    color: #ff4c4c;
+    border-color: #f307df;
+    color: #f307df;
 }
 
 .btn-outline-danger:hover {
-    background-color: #ff4c4c;
+    background-color: #cc1def;
     color: #ffffff;
 }
 
 #app .Typewriter__wrapper {
     font-size: 2.5rem;
     font-weight: bold;
-    color: #ff4c4c;
+    color: #1d82ef;
 }
 
 /* Habilidades Section */
 #habilidades .subtitulo-habilidades {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #ff4c4c;
+    color: #cc1def;
 }
 
 #habilidades .feature-icon {
     font-size: 3rem;
-    color: #ff4c4c;
+    color: #cc1def;
     margin-bottom: 1rem;
 }
 
 .icono {
     font-size: 2rem;
-    color: #ff4c4c;
+    color: #e508d6;
 }
 
 /* Proyectos Section */
 #proyectos .card {
-    background-color: #1f1f1f;
-    color: #ffffff;
+    background-image: url('assets/1.jpg');
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    background-position: center; 
+    background-size: cover; 
 }
 
 #proyectos .card img {
@@ -82,46 +88,72 @@ header, nav, footer {
 }
 
 #proyectos .card .text-body-secondary {
-    color: #ff4c4c;
+    color: #cc1def;
 }
 
-/* Testimonios Section */
-#testimonios h1 {
-    color: #ff4c4c;
+/* Curso Section */
+#curso h1 {
+    color: #000000;
 }
 
-#testimonios .carousel-item img {
-    height: 150px;
+#curso .carousel-item {
+    height: 600px; 
+}
+
+#curso .carousel-item .card {
+    height: 100%; 
+}
+
+#curso .card-img-top {
+    height: 250px; 
     object-fit: cover;
+}
+
+#curso .carousel-control-prev-icon, 
+#curso .carousel-control-next-icon {
+    background-color: #1def4a; /
+}
+
+/* Estilos para enlaces de tarjetas */
+.card-link {
+    text-decoration: none;
+}
+
+.card-link:hover {
+    text-decoration: none; 
+    color: #f906e9; 
+}
+
+.card-link:focus {
+    outline: none; 
+}
+
+.card-link .card {
+    border: 1px solid transparent; 
+}
+
+.card-link .card:hover {
+    border: 1px solid #ef8d1d; 
 }
 
 /* Footer Section */
 #contacto {
-    color: #ffffff;
+    color: #000000;
     text-align: center;
 }
 
 #contacto .bi {
     font-size: 2rem;
-    color: #ff4c4c;
+    color: #cc1def;
 }
 
 #contacto .bi:hover {
-    color: #ffffff;
+    color: #14dadd;
 }
 
 #derechos-de-autor {
     margin-top: 20px;
     font-size: 0.8rem;
-    color: #555555;
+    color: #f9f4f4;
 }
 
-.icono-contacto {
-    font-size: 2rem;
-    color: #ff4c4c;
-    margin: 0 10px;
-}
-
-.icono-contacto:hover {
-    color: #ffffff;
-}
